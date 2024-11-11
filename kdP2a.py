@@ -6,7 +6,8 @@ import sys
 server_name = 'localhost'
 server_port = 12000
 server_timeout = 60 #timeout in seconds 
-number_of_pings_to_send = 10
+#number_of_pings_to_send = 10
+number_of_pings_to_send = 50
 
 #Creating UDP Socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
